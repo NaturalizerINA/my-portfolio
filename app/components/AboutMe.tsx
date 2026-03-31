@@ -35,9 +35,7 @@ export default function AboutMe() {
           className="rounded-lg border border-border bg-card p-8"
         >
           <p className="text-base leading-relaxed text-[hsl(120,5%,70%)] md:text-lg">
-            I am persistent, Optimistic, and Love programming.. especially in
-            Android Applications, I love the OOP concept of Java and I love the
-            succinct language of Kotlin
+            I am passionate about creating clean, scalable code and delivering seamless user experiences. I'm always eager to learn new technologies and solve complex challenges. As a Frontend Developer, I build user-friendly, high-performing applications or web and modular microfrontends for mobile or web platforms.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
