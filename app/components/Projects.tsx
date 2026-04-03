@@ -128,7 +128,7 @@ export default function Projects() {
                       href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 rounded-lg border border-[#0e6b0e]/30 bg-[#0e6b0e]/10 px-4 py-2 text-sm font-medium text-[#0e6b0e] transition-all hover:bg-[#0e6b0e]/20 group-hover:border-[#0e6b0e]/50"
+                      className="inline-flex w-[124px] shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-lg border border-[#0e6b0e]/30 bg-[#0e6b0e]/10 px-4 py-2 text-sm font-medium text-[#0e6b0e] transition-all hover:bg-[#0e6b0e]/20 group-hover:border-[#0e6b0e]/50"
                     >
                       View Live
                       <svg
