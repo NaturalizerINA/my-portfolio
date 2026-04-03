@@ -35,6 +35,13 @@ const projects = [
     link: "https://document.miraeasset.co.id/",
     image: "/project3-dms.webp",
   },
+  {
+    title: "Todo Notes",
+    description:
+      "A web application for managing Tasks Notes and Subtask Notes using React JS, Typescript, Golang API, and PostgreSQL",
+    link: "https://document.miraeasset.co.id/",
+    image: "/project3-dms.webp",
+  },
 ];
 
 export default function Projects() {
