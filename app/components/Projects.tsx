@@ -20,6 +20,7 @@ const projects = [
       "A web application to update and verify customer data at Mirae Asset using React JS",
     link: "https://kyc.miraeasset.co.id/",
     image: "/project1-ekyc.webp",
+    tags: ["React", "Finance"],
   },
   {
     title: "Web Registration",
@@ -27,6 +28,7 @@ const projects = [
       "A web application by Mirae Asset Sekuritas Indonesia for Online Opening Accounts using React JS",
     link: "https://login.miraeasset.co.id/",
     image: "/project2-web-registration.webp",
+    tags: ["React", "Finance"],
   },
   {
     title: "Document Management System",
@@ -34,13 +36,15 @@ const projects = [
       "A web application for managing the documents in internal Mirae Asset Sekuritas Indonesia like Internal Memo or Release Approval using React JS",
     link: "https://document.miraeasset.co.id/",
     image: "/project3-dms.webp",
+    tags: ["React", "Management"],
   },
   {
     title: "Todo Notes",
     description:
       "A web application for managing Tasks Notes and Subtask Notes using React JS, Typescript, Golang API, and PostgreSQL",
     link: "https://document.miraeasset.co.id/",
-    image: "/project3-dms.webp",
+    image: "/project4-notes.webp",
+    tags: ["React", "Typescript", "Golang", "Fiber", "PostgreSQL"],
   },
 ];
 
@@ -109,13 +113,15 @@ export default function Projects() {
                   </div>
 
                   <div className="mt-6 flex items-center justify-between">
-                    <div className="flex gap-2">
-                      <span className="rounded-full bg-[#0e6b0e]/10 px-3 py-1 text-[10px] font-medium uppercase tracking-wider text-[#0e6b0e]">
-                        React
-                      </span>
-                      <span className="rounded-full bg-[#0e6b0e]/10 px-3 py-1 text-[10px] font-medium uppercase tracking-wider text-[#0e6b0e]">
-                        Finance
-                      </span>
+                    <div className="flex flex-wrap gap-2">
+                      {project.tags.map((tag) => (
+                        <span
+                          key={tag}
+                          className="rounded-full bg-[#0e6b0e]/10 px-3 py-1 text-[10px] font-medium uppercase tracking-wider text-[#0e6b0e]"
+                        >
+                          {tag}
+                        </span>
+                      ))}
                     </div>
 
                     <a
