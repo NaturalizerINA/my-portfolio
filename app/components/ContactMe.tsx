@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Linkedin } from "lucide-react";
+import { Mail, Linkedin, Github } from "lucide-react";
 import GlitchText from "./GlitchText";
 
 export default function ContactMe() {
@@ -57,6 +57,27 @@ export default function ContactMe() {
               className="text-sm text-[hsl(120,5%,70%)] transition-colors hover:text-[#0e6b0e] md:text-base"
             >
               Rahmad Setiawan M
+            </a>
+          </motion.div>
+
+          {/* Github */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="flex items-center gap-4 rounded-lg border border-border bg-card p-6 transition-colors hover:border-[#0e6b0e]/40"
+          >
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-[#0e6b0e]/30 bg-[#0e6b0e]/10">
+              <Github size={20} className="text-[#0e6b0e]" />
+            </div>
+            <a
+              href="https://github.com/NaturalizerINA"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-[hsl(120,5%,70%)] transition-colors hover:text-[#0e6b0e] md:text-base"
+            >
+              NaturalizerINA
             </a>
           </motion.div>
         </div>
