@@ -46,6 +46,14 @@ const projects = [
     image: "/project4-notes.webp",
     tags: ["React", "Typescript", "Golang", "Fiber", "PostgreSQL"],
   },
+  {
+    title: "Personal Portfolio",
+    description:
+      "My professional portfolio website built with Next.js, Framer Motion, and Tailwind CSS, showcasing the client's portfolio journey and expertise.",
+    link: "https://rahma-langgeng.netlify.app/",
+    image: "/project5-personal-portfolio.webp",
+    tags: ["Next.js", "Typescript", "Framer Motion", "Tailwind CSS"],
+  },
 ];
 
 export default function Projects() {
