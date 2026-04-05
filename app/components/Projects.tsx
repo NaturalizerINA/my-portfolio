@@ -42,7 +42,7 @@ const projects = [
     title: "Todo Notes",
     description:
       "A web application for managing Tasks Notes and Subtask Notes using React JS, Typescript, Golang API, and PostgreSQL",
-    link: "https://document.miraeasset.co.id/",
+    link: "https://github.com/NaturalizerINA/todoweb",
     image: "/project4-notes.webp",
     tags: ["React", "Typescript", "Golang", "Fiber", "PostgreSQL"],
   },
