@@ -42,7 +42,7 @@ const projects = [
     title: "Todo Notes",
     description:
       "A web application for managing Tasks Notes and Subtask Notes using React JS, Typescript, Golang API, and PostgreSQL",
-    link: "https://github.com/NaturalizerINA/todoweb",
+    link: "https://web-notes.mukminullah.my.id",
     image: "/project4-notes.webp",
     tags: ["React", "Typescript", "Golang", "Fiber", "PostgreSQL"],
   },
@@ -50,7 +50,7 @@ const projects = [
     title: "Personal Portfolio",
     description:
       "My professional portfolio website built with Next.js, Framer Motion, and Tailwind CSS, showcasing the client's portfolio journey and expertise.",
-    link: "https://rahma-langgeng.netlify.app/",
+    link: "https://mukminullah.my.id",
     image: "/project5-personal-portfolio.webp",
     tags: ["Next.js", "Typescript", "Framer Motion", "Tailwind CSS"],
   },
